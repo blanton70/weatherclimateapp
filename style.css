@@ -1,0 +1,145 @@
+body {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#janlo {
+    background-color: blue;
+}
+
+#janhi {
+    background-color: brown;
+}
+
+#jan {
+
+}
+
+#current {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border-top-width: 1px;
+    background: rgb(255, 221, 208);
+    height: 150px;
+    width: 505px;
+
+    
+        background-image:
+          repeating-linear-gradient(#ccc 0 1px, transparent 1px 100%),
+          repeating-linear-gradient(90deg, #ccc 0 1px, transparent 1px 100%);
+        background-size: 72px 10px;
+  
+}
+
+#precfore {
+    width: 505px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    background-image:
+          repeating-linear-gradient(to bottom,#ccc 0 1px, transparent 1px 100%),
+          repeating-linear-gradient(90deg, #ccc 0 1px, transparent 1px 100%);
+        background-size: 72px 10px;
+
+}
+
+
+#cloudfore {
+    width: 504px;
+    height: 100px;
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    background-image:
+          repeating-linear-gradient(rgb(0, 0, 0) 0 1px, transparent 1px 100%),
+          repeating-linear-gradient(90deg, #ccc 0 1px, transparent 1px 100%);
+        background-size: 72px 10px;
+
+}
+
+#cloudfore div {
+    background: grey;
+}
+
+.gridRow {
+    position: relative;
+;
+    border-color: white;
+}
+
+
+.span {
+    position:absolute;
+    height:1px;
+    width:3px;
+    background: darkred;
+    top:0;
+    left:0;
+    font-size: small;
+}
+
+.annotate {
+    position:absolute;
+    height:30px;
+    width:0px;
+    background: black;
+    bottom:6px;
+    right: 10px;
+    font-size: x-small;
+}
+
+.annotate2 {
+    position:absolute;
+    height:85px;
+    width:0px;
+    background: darkred;
+    top: 100;
+    bottom:0;
+    right: 13px;
+    font-size: x-small;
+}
+
+.annotateprec {
+    position:absolute;
+    height:0px;
+    width:0px;
+    background: black;
+    bottom:6px;
+    right: 10px;
+    font-size: x-small;
+}
+
+.annotateprec2 {
+    position:absolute;
+    height:55px;
+    width:0px;
+    background: darkred;
+    top: 100;
+    bottom:0;
+    right: 10px;
+    font-size: x-small;
+}
+
+.weekdays {
+    position: absolute;
+    height: 1px;
+    bottom:0;
+    left:0;
+    font-size:x-small;
+    white-space:nowrap;
+}
+
+.zeroline {
+    position:absolute;
+    height:1px;
+    width:3px;
+    background:  black;
+    
+    bottom:29px;
+    right: 0px;
+    font-size: x-small;
+}
